@@ -1,0 +1,72 @@
+/* Main container styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Profile display section */
+  .profileDisplay {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profileDisplay h1 {
+    color: #333333;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .profileDisplay p {
+    color: #666666;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .profileDisplay h2 {
+    color: #333333;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* List of interests */
+  .profileDisplay ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profileDisplay li {
+    color: #666666;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Social links */
+  .socialLinks {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .socialLinks a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1em;
+  }
+  
+  .socialLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+      margin: 20px auto;
+    }
+  }
+  
